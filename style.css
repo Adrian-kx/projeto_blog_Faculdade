@@ -1,104 +1,132 @@
+/* Estilos gerais */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
 }
+
 nav ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+nav li {
+    display: inline;
+    margin-right: 20px;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
+
 section {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    width: 70%;
+align-self: center;
 }
 
 article {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 aside {
-  max-width: 200px;
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    flex: 1;
 }
 
 footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #333;
-  color: #fff;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
+
+/* Links */
 a {
-  color: #007bff;
-  text-decoration: none;
+    text-decoration: none;
+    color: #007bff;
 }
 
 a:hover {
-  text-decoration: underline;
-}
-figure {
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    text-decoration: underline;
 }
 
-figure img {
-  max-width: 100%;
-  height: auto;
+/* Formulário */
+form {
+    margin-top: 20px;
 }
 
-figcaption {
-  font-style: italic;
-  color: #777;
-}
-u {
-  text-decoration: underline;
+label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-s {
-  text-decoration: line-through;
-}
-em {
-  font-style: italic;
-}
-
-strong {
-  font-weight: bold;
-}
-sub,
-sup {
-  font-size: 0.8em;
-  vertical-align: baseline;
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-sub {
-  vertical-align: sub;
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-sup {
-  vertical-align: super;
+/* Mapa */
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+/* Vídeo e Áudio */
+video,
+audio {
+    width: 100%;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Estilos para cabeçalhos e outros elementos de texto */
+h1, h2, h3 {
+    color: #333;
+}
+
+img{
+    width: 100%;
 }
